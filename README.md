@@ -5,10 +5,12 @@ Dear Cadet, Good luck! Use "Mesugaloot"
 
 
 # script (copy to use)
-cd ~ 
-git clone https://github.com/yuviwiki/lefaler.git 
-cd lefaler
-chmod +x setup.sh
-./setup.sh
-source ~/.bashrc
-cd ~
+```bash
+ cd ~
+ git clone https://github.com/yuviwiki/lefaler.git
+ cd lefaler
+ chmod +x setup.sh
+ ./setup.sh
+ source ~/.bashrc
+ cd ~
+```
